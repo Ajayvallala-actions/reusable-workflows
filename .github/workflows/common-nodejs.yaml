@@ -20,6 +20,6 @@ jobs:
     - name: list files
       run: ls -l
     - name: print inputs
-      run: echo "project is {{ inputs.project }}"
+      run: echo "project is ${{ inputs.project }}"
 
        
